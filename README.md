@@ -96,10 +96,6 @@ pip install git+https://github.com/tztztztztz/lvis-api.git
 1. Download the pretrained models from the below urls. You can also train the baselines from scrath, please refer to `scripts/baseline.sh`; 
 2. Please refer to `scripts/logn.sh`. Specifically, for logit-normalized calibration, we are now using an online approach, which involves finetuning the pretrained model for 1 epoch with the `LogitNormHead` attached for aggregating statistics and then directly perform calibrated evaluation. 
 
-## Pretrained Models on LVIS
-
-[] To be released.
-
 ## Citation
 
 If you use the equalization losses, please cite our papers.
